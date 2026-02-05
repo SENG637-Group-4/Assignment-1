@@ -103,9 +103,11 @@ t
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
-Since we conducted exploratory testing individually from remote locations, each team member reported a similar set of defects. Although we checked for existing defects before creating new ones to reduce duplication, some duplicate reports were still created. Removing these duplicates was challenging because the same issues were described using different titles and descriptions.
+Since we conducted exploratory testing individually from remote locations, each team member reported a similar set of defects. Although we checked for existing defects before creating new ones to reduce duplication, some duplicate reports were still created. Removing these duplicates was challenging because the same issues were described using different titles and descriptions. To resolve this, we met in person at the university, discussed the reported defects, and removed the duplicates.
 
-To resolve this, we met in person at the university, discussed the reported defects, and removed the duplicates. Some reported defects were also not reproducible, so we retested them together and removed the invalid reports.
+Some reported defects were also not reproducible, so we retested them together and removed the invalid reports.
+
+Another challenge was reporting defects in a clear and consistent way. To address this, we created a bug template in Jira. This allowed us to follow the same format whenever a new bug was reported, ensuring consistency across all defect reports.
 
 This experience showed us how important teamwork is. Everyone must be aligned on what needs to be done and understand how their efforts fit into the group's work.
 
