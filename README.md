@@ -1,13 +1,13 @@
->   **SENG 637 - Software Testing, Reliability, and Quality**
+# SENG 637 - Software Testing, Reliability, and Quality
 
-**Lab. Report \#1 – Introduction to Testing and Defect Tracking**
+### Lab. Report \#1 – Introduction to Testing and Defect Tracking
 
-| Group: Group Number      |
+| Group Number      |
 |-----------------|
-| Student 1 name                |   
-| Student 2 name              |   
-| Student 3 name               |   
-| Student 4 name                |   
+| Zohara Kamal            |   
+| Thanoshan Vijayanandan          |   
+| Shuvam Agarwala               |   
+| Minh Le              |   
 
 
 **Table of Contents**
@@ -17,7 +17,39 @@
 
 [1 Introduction	1](#_Toc439194677)
 
+This lab focuses on gaining practical experience in software testing and defect tracking using an ATM simulation system as the System Under Test (SUT). The main objective of the lab is to understand and apply different testing approaches, including exploratory testing, manual scripted (functional) testing, and regression testing. The ATM simulation system provides common banking operations such as deposits, withdrawals, transfers, and balance inquiries, which allows testers to evaluate both functional correctness and usability.
+
+In this lab, we conduct exploratory and scripted tests on ATM System version 1.0, which is provided in the archive `/assignment1-artifacts.zip` under the file name `ATM System - Lab 1 Version 1.0.jar`. Any defects discovered during these testing phases are recorded in the Jira backlog.
+
+After documenting the identified defects, regression testing is performed on the updated release of the application, ATM System version 1.1, also included in `/assignment1-artifacts.zip` as `ATM System - Lab 1 Version 1.1.jar`. The status of previously reported issues is then reviewed and updated in the Jira backlog based on whether the defects have been resolved or remain present.
+
 [2 High-level description of the exploratory testing plan	1](#_Toc439194678)
+
+Our exploratory testing plan focused on understanding the core functionalities of the ATM simulation system and identifying defects through unscripted interaction with the interface. The primary functions targeted during this phase were:
+
+- Authentication (card number and PIN)
+- Deposit
+- Withdrawal
+- Transfer between accounts
+- Balance inquiry
+- Transaction receipts/ logs
+- Session termination and card ejection
+- System on/off behavior
+  
+Our approach was broad-first then deep. We initially tested all major functions lightly to gain familiarity with the system. After that, we selected a few high-risk or complex functions (such as transfer and withdrawal) and tested them more extensively.
+Test case ideas were derived from:
+
+- Test typical user activities like successful login, regular deposits, withdrawals, transfers, and balance inquiries
+- Explore what the user can potentially do when he visits the ATM, like pressing incorrect buttons or navigating menus in unusual orders
+- After each transaction, verify account balances and system logs to ensure the operation was recorded accurately
+- Review the generated receipt to confirm that all transaction details are correct and complete
+- Evaluate boundary conditions (depositing $0, very large amounts ...)
+- Exceptional paths (wrong PIN, negative numbers, cancel operations ...)
+- Usability behaviors (pressing unexpected buttons, repeated inputs ...)
+
+We also varied: Account types (Checking, Savings, Money Market)
+
+The goal of this phase was not to cover every scenario, but to uncover unexpected behaviors, crashes, or inconsistencies without relying on predefined scripts.
 
 [3 Comparison of exploratory and manual functional testing	1](#_Toc439194679)
 
@@ -33,8 +65,12 @@ learned	1](#_Toc439194682)
 
 # Introduction
 
-An introduction of your lab work, and what you knew about exploratory and manual
-functional testing before this lab
+In this lab work, we will be performing manually exploratory tests, scripted tests and regression tests on the given ATM simulation system v1.0. It is available inside the zip archive with path `/assignment1-ATM.zip`, and the file name is `ATM System - Lab 1 Version 1.0.jar`.
+
+If we find any bug during exploratory/scripted testing, we will log it in Jira Backlog following the requirement of assignment 1.
+
+Then for each bug found, we will perform regression testing on the updated version of the given system, and update its status in the Jira Backlog. The updated sytem is available inside the zip archive with path `/assignment1-ATM.zip`, and the file name is `ATM System - Lab 1 Version 1.1.jar`.
+
 
 # High-level description of the exploratory testing plan
 
