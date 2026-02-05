@@ -53,12 +53,28 @@ Text…
 
 # How the pair testing was managed and team work/effort was divided 
 
-Text…
+The testing work was shared among the team using a collaborative approach.
+
+**Exploratory Testing:**
+First, we started by exploring the system to understand how it works. Based on that, we created a high-level test plan. Then, two pairs from our team tested the system separately and took notes. Finally, each pair reviewed the issues they found and reported them in Jira.
+
+**Manual Scripted Testing:**
+We completed this task as a team. Each team member executed 10 test cases, while the other members tracked the completed tests and reported any defects. Shuvam Agarwala executed test cases 1–10, followed by Zohara Kamal (11–20), Minh Le (21–30), and Thanoshan Vijayanandan (31–40).
+
+**Regression Testing:**
+We completed this task as a group. Each team member who reported defects in the previous two phases retested the same test cases on version 1.1 and updated the defect status, while the other members reviewed.
+t
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
-Text…
+Since we conducted exploratory testing individually from remote locations, each team member reported a similar set of defects. Although we checked for existing defects before creating new ones to reduce duplication, some duplicate reports were still created. Removing these duplicates was challenging because the same issues were described using different titles and descriptions.
+
+To resolve this, we met in person at the university, discussed the reported defects, and removed the duplicates. Some reported defects were also not reproducible, so we retested them together and removed the invalid reports.
+
+This experience showed us how important teamwork is. Everyone must be aligned on what needs to be done and understand how their efforts fit into the group's work.
 
 # Comments/feedback on the lab and lab document itself
 
-Text…
+1. The detailed and comprehensive assignment document (seng637-a1.md) helped us clearly understand and complete the required tasks.
+2. Through this assignment, we gained hands-on experience in key testing activities used in the software industry. Further, the selected system was appropriate because it allowed us to perform all three types of testing in sequence.
+
