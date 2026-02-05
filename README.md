@@ -99,7 +99,6 @@ We completed this task as a team. Each team member executed 10 test cases, while
 
 **Regression Testing:**
 We completed this task as a group. Each team member who reported defects in the previous two phases retested the same test cases on version 1.1 and updated the defect status, while the other members reviewed.
-t
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
