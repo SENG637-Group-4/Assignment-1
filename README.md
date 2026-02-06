@@ -6,8 +6,8 @@
 |-----------------|
 | Zohara Kamal            |   
 | Thanoshan Vijayanandan          |   
-| Shuvam Agarwala               |   
-| Minh Le              |   
+| Minh Le                |   
+| Shuvam Agarwala              |   
 
 
 ## Table of Contents
@@ -155,7 +155,7 @@ This experience showed us how important teamwork is. Everyone must be aligned on
 # Comments/feedback on the lab and lab document itself
 1. The detailed and comprehensive assignment document (seng637-a1.md) helped us clearly understand and complete the required tasks.
 2. Through this assignment (The SUT chosen for this assignmen), we gained hands-on experience in key testing activities used in the software industry. Further, the selected system was appropriate because it allowed us to perform all three types of testing in sequence. It effectively demonstrated the differences between exploratory, scripted, and regression testing. It was simple enough to be understood by anyone, yet it had plenty of bugs to be discovered.
-4. Backlog was used as a tool for reporting and managing bugs. In our opinion, it was perfect for this assignment. Now we are familiar with these issue tracking tools.
+4. Backlog was used as a tool for reporting and managing bugs. In our opinion, it was perfect for this assignment. Now we are familiar with these issue tracking tools. And we also know about the logs of tracking system.
 
 Overall, the lab was practical and valuable for learning defect tracking and teamwork in software testing. Adding more example bug reports or a short demo video could further improve clarity for future students.
 
