@@ -115,7 +115,13 @@ Within each pair, roles were rotated to ensure equal participation:
 Finally, each pair reviewed the issues they found and reported them in Jira and removed duplicates.
 
 **Manual Scripted Testing:**
-We completed this task in pairs, similar to the previous step. Shuvam Agarwala and Zohara Kamal executed test cases 1–20, while Minh Le and Thanoshan Vijayanandan performed test cases 21–40. After finishing the execution phase, each pair then focused on defect documentation and verification for the other pair’s results.
+We completed this task in two pairs, similar to the previous step.
+
+Within each pair, roles were rotated to ensure equal participation:
+- Driver: Operated the ATM system and executed system under test.
+- Observer: Documented test steps, outcomes, and logged defects.
+
+Shuvam Agarwala and Zohara Kamal executed test cases 1–20, while Minh Le and Thanoshan Vijayanandan performed test cases 21–40. After finishing the execution phase, each pair then focused on defect documentation and verification for the other pair’s results.
 
 This approach ensured that all test cases were fully covered and also provided a second layer of review for accuracy. By cross-checking each other’s work, we reduced the chances of missing defects and confirmed that the system behavior matched the expected outcomes. It also helped maintain consistency in how defects were recorded and improved the overall reliability of our testing process.
 
