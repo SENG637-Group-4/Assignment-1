@@ -14,7 +14,7 @@
 1. [Introduction](#introduction)
 2. [High-level description of the exploratory testing plan](#high-level-description-of-the-exploratory-testing-plan)
 3. [Comparison of exploratory and manual functional testing](#comparison-of-exploratory-and-manual-functional-testing)
-4. [Bug report from Jira Backlog](#bug-report-from-iira-backlog)
+4. [Bug report from Jira Backlog](#bug-report-from-jira-backlog)
 5. [Notes and discussion of the peer reviews of defect reports](#notes-and-discussion-of-the-peer-reviews-of-defect-reports)
 6. [How the pair testing was managed and team work/effort was divided](#how-the-pair-testing-was-managed-and-team-workeffort-was-divided)
 7. [Difficulties encountered, challenges overcome, and lessons learned](#difficulties-encountered-challenges-overcome-and-lessons-learned)
