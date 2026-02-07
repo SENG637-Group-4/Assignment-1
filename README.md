@@ -59,14 +59,13 @@ The goal of this phase was not to cover every scenario, but to uncover unexpecte
 
 # Comparison of exploratory and manual functional testing
 
-Exploratory testing enabled our team to identify significantly more defects than scripted testing. This was largely because each team member interacted with the application in unique and creative ways, exploring workflows and edge cases that were not covered by the 40 scripted test cases. A key strength of exploratory testing is its flexibility: testers are not constrained by predefined steps, which makes it especially effective when scripted coverage is incomplete. In our case, the provided scripted manual test cases were insufficient to uncover many of the issues we ultimately found.
+Exploratory testing helped our team find many more bugs than scripted testing. This is because each team member used the program in their own creative and different ways. These different actions helped us discover problems that were not covered in the 40 scripted test cases. The biggest advantage of exploratory testing is freedom, we are not limited to fixed steps. It works especially well when scripted tests are not complete. In our case, the 40 provided scripted manual test cases were not enough to find most of the bugs.
 
-However, exploratory testing also has limitations. Because sessions are not fully planned in advance, it can be difficult to track overall progress and confirm coverage across features. This approach also increases the risk of missing defects, and some issues can be challenging to reproduce if exact steps, inputs, and environment conditions are not documented at the time of discovery.
+However, exploratory testing also has downsides. It was hard to track our testing progress because nothing was planned in advance. Some bugs may have been missed. Sometimes we found a bug but could not reproduce it later because we did not record the exact steps.
 
-In contrast, scripted testing is well suited for monitoring progress, ensuring consistent coverage, and supporting repeatability. Clearly defined steps make it easy for any tester to execute the same tests and verify that the application meets baseline quality expectations. Once established, scripted tests are less dependent on individual tester creativity because execution follows a standardized process.
+Scripted testing is better for tracking progress and documenting bugs. The test steps are written clearly, so anyone can follow them and check if the program meets basic quality standards. Once scripted tests are created, they do not depend on the tester’s creativity since everyone follows the same instructions.
 
-The main drawback of scripted testing is that its effectiveness depends on the completeness and foresight of the test design. If important scenarios are overlooked or not included in the test suite, those areas may remain untested in future cycles, allowing defects to persist undetected.
-
+The disadvantage of scripted testing is that it depends on the imagination of the person who wrote the tests. If a test case is forgotten or not included, that problem might never be tested in future testing rounds.
 
 To summarize:
 
@@ -143,16 +142,15 @@ As mentioned earlier, communication was maintained through shared Notion notes a
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
-Since we conducted exploratory testing individually from remote locations, multiple team members identified many of the same defects. Although we reviewed existing tickets before logging new ones to minimize duplication, some duplicate reports were still created because similar issues were documented with different titles and descriptions. To address this, we met in person at the university to review the defect list, consolidate overlapping tickets, and remove duplicates.
+Since we conducted exploratory testing individually from remote locations, each team member reported a similar set of defects. Although we checked for existing defects before creating new ones to reduce duplication, some duplicate reports were still created. Removing these duplicates was challenging because the same issues were described using different titles and descriptions. To resolve this, we met in person at the university, discussed the reported defects, and removed the duplicates. In addition, some issues appeared intermittently, making them hard to reproduce consistently during testing.
 
-We also encountered intermittent issues that were difficult to reproduce reliably. In addition, some reported defects were not reproducible, so we retested them as a group and closed the invalid reports.
+Some reported defects were also not reproducible, so we retested them together and removed the invalid reports.
 
-Another challenge was ensuring defect reports were clear and consistent. To improve quality and standardize reporting, we created a Jira bug template and used it for all new tickets. This helped ensure every report followed the same structure and included the required details.
+Another challenge was reporting defects in a clear and consistent way. To address this, we created a bug template in Jira. This allowed us to follow the same format whenever a new bug was reported, ensuring consistency across all defect reports.
 
-Finally, limited documentation made it harder to interpret certain user interface behaviors and determine whether they were expected features or true defects.
+Moreover, understanding certain user interface behaviors was challenged due to the lack of detailed documentation, which made it harder to determine whether some behaviors were intended or defects.
 
-Overall, this experience reinforced the importance of collaboration and alignment within the team, both for maintaining a clean defect backlog and for ensuring everyone’s efforts contribute effectively to shared project goals.
-
+This experience showed us how important teamwork is. Everyone must be aligned on what needs to be done and understand how their efforts fit into the group's work.
 
 # Comments/feedback on the lab and lab document itself
 1. The detailed and comprehensive assignment document (seng637-a1.md) helped us clearly understand and complete the required tasks.
